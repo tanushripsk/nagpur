@@ -1,0 +1,350 @@
+body {
+    background-color: #E2EEDB;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    text-align: justify;
+}
+
+.container {
+    background-color: #fff;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    box-shadow: 10px;
+    padding: 20px; 
+    text-align: justify;
+/*    border: 2px solid green;*/
+}
+p{
+    text-align: justify;
+}
+.navbar {
+    background-color: #fff;
+    color: #333;
+/*    padding: 10px 20px;*/
+/*    position: fixed;*/
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.login-logout a {
+    text-decoration: none;
+    color: #fff;
+}
+/*20 product css*/
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%; 
+  margin: 0 auto;
+}
+
+.box {
+  width: 80px; 
+  height: 80px; 
+  background-color: #fff; 
+  margin-bottom: 20px; 
+  border: 2px solid rgb(154, 153, 153);
+  border-radius: 15px;
+}
+.box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow on hover */
+}
+.small {
+  width: 40px;
+  padding: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.small1
+{
+  width: 50px;
+  padding: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.small2 {
+  width: 40px;
+  text-align: center;
+}
+
+   .big {
+            width: 48%;
+            height: auto;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border: 2px solid rgb(154, 153, 153);
+            border-radius: 15px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        .daily {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Media Queries */
+        @media (max-width: 991px) {
+            .big {
+                width: 100%;
+            }
+
+            .daily img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .big {
+                width: 48%;
+            }
+        }
+ footer {
+   background-color: #CAF4F8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.daily {
+    border-radius: 15px;
+    width: 150px;
+}
+
+.search-location-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-location-form input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+.search-location-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px; 
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+.search-location-form button i {
+    margin-right: 5px;
+}
+
+/* Media Query for all devices */
+@media screen and (max-width: 768px) {
+    .menu li {
+        margin-right: 10px; 
+    }
+
+    .search-location-form input[type="text"] {
+        font-size: 14px; 
+    }
+
+    .search-location-form button {
+        font-size: 14px; 
+    }
+}
+
+@media screen and (max-width: 576px) 
+{
+
+    .menu {
+    display: none;
+    }
+.login-logout
+{
+     display: none;
+}
+    .search-location-form input[type="text"] {
+        font-size: 12px; 
+    }
+
+    .search-location-form button {
+        font-size: 12px; 
+    }
+}
+.container1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.big {
+            width: 48%;
+            height: auto;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border: 2px solid rgb(154, 153, 153);
+            border-radius: 15px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 auto;
+        }
+.container2 a{
+     text-decoration: none;
+    color: black;
+}
+               .daily {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease; 
+        }
+
+        .daily:hover {
+            transform: scale(1.1); /* Zoom in by 10% */
+        }
+
+
+        /* Media Queries */
+        @media (max-width: 991px) {
+            .big {
+                width: 100%;
+            }
+
+            .daily img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .big {
+                width: 48%;
+            }
+        }
+.container3
+{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%; 
+  margin: 0 auto;
+}
+
+.bill
+{
+    color: blue;
+}
+.travelsection{
+    color: green;
+}
+.border{
+border: 2px solid grey;
+  border-radius: 5px;
+
+}
+
+/*banner*/
+
+@media screen and (max-width: 576px) {
+    .content
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*product*/
+       .carousel {
+            width: 180px;
+            margin: auto;
+        }
+        .bp{
+            color: #5EB52B;
+        }
+        p:hover {
+  opacity: 1;
+  color: red;
+}
+.beauty{
+    border: 2px solid grey;
+  border-radius: 5px;
+}
+@media screen and (max-width: 576px) {
+    .beauty{
+        border-radius:2px ;
+        border:2px solid grey;
+        text-align: center;
+
+    }
+}
+.get
+{
+  width: 95
+  height:auto;
+  border-radius: 15px;
+  border: 2px solid grey;
+
+
+
+/*@media screen and (max-width: 576px) {
+    .box {
+        width: 20px;
+        height: 50px;
+        background-color: #fff;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 0px;
+    }
+    .box img{
+        width: 10px;
+    }
+}*/
+
+
+ @media screen and (max-width: 768px) {
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px; 
+   margin: 10px;
+  }
+}
+
+
+.rectangle-box {
+    border-radius: 2px;
+    border: 2px solid yellow;
+    box-shadow: 0 0 5px rgba(0, 5, 0, 5); 
+}

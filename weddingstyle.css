@@ -1,0 +1,120 @@
+  .w1 {
+            width: 100%;
+            height: auto; 
+            border-radius: 60%;
+            transition: transform 0.3s ease; 
+        }
+
+        .w1:hover {
+            transform: scale(1.1); 
+        }
+
+        .a {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+/*            margin-left: 20px;*/
+        }
+
+        @media (max-width: 768px) {
+            .col-lg-2 {
+                width: 33.33%; 
+                text-align: center; 
+            }
+
+            .w1 {
+                width: 110%; 
+                margin: 0 auto; 
+            }
+
+            .a {
+                font-size: 15px;
+            }
+        }
+.w2 {
+            width: 110%;
+            height: auto;
+             border-radius: 10%; 
+            transition: transform 0.3s ease;
+            padding: 10px;
+        }
+        .w2:hover {
+            transform: scale(1.1); 
+        }
+           @media (max-width: 768px) {
+            .col-lg-2 {
+                width: 33.33%; 
+                text-align: center; 
+            }
+            .w2 {
+                width: 150%; 
+                margin: 0 auto; 
+            }
+            .a {
+                font-size: 15px;
+            }
+        }
+
+
+           .container11 {
+/*    background-image: url('./images/wedding/wedding1.png'); */
+    background-size: cover; 
+    height: 50%;
+/*    border: 2px solid green;*/
+}
+.w3{
+    width:100% ;
+     height: auto;
+             border-radius: 10%; 
+            transition: transform 0.3s ease;
+            padding: 10px;
+
+}
+ .w3:hover {
+            transform: scale(1.1); 
+        }
+  @media (max-width: 768px) {
+        .container11 {
+        background-image: none;
+    }
+    
+  .col-lg-3 {
+    width: 35%; 
+    text-align: center; 
+    margin: 10px; 
+}
+ .w3 {
+        width: 140%; 
+        margin: 0 auto; 
+        }
+
+    }
+
+
+    .w4{
+    width:120% ;
+     height: auto;
+             border-radius: 10%; 
+            transition: transform 0.3s ease;
+            padding: 10px;
+
+}
+ .w4:hover {
+            transform: scale(1.1); 
+        }
+  @media (max-width: 768px) {
+        .container11 {
+        background-image: none;
+    }
+    
+  .col-lg-3 {
+    width: 35%; 
+    text-align: center; 
+    margin: 10px; 
+}
+ .w4 {
+        width: 140%; 
+        margin: 0 auto; 
+        }
+
+    }

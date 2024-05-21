@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- for carousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="style1.css">
+    <body>
+        
+        <div class="container">
+ <div class="container-fluid p-5">
+        <!--------------------------------- navbar--------------------------------- -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <ul class="menu">
+              
+                <li>
+                    <a href="advertise.html">
+                        <i class="fa fa-bullhorn"></i>
+                        Advertise
+                    </a>
+                </li>
+                <li>
+                    <a href="listing.html">
+                        <i class="fa fa-line-chart"></i>
+                        Free Listing
+                    </a>
+                </li>
+            </ul>
+            <div class="login-logout">
+                <button type="button" class="btn btn-primary">
+                    <a href="#">Login</a> / <a href="#">Sign Up</a>
+                </button>
+            </div>
+        </nav>
+        <hr>
+        <!---------------------------------search  location------------------------------------ -->
+        <form action="/action_page.php" class="search-location-form">
+            <input type="text" id="location" placeholder="Location.." name="location" class="form-control">
+            <input type="text" placeholder="Search.." name="search" class="form-control">
+            <button type="button" id="voice-search-btn" class="btn btn-primary mx-2">
+                <i class="fa fa-microphone "></i>
+            </button>
+            <button type="submit" class="btn btn-primary mx-2">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+     <div  style="padding:2px"></div>
+<div class="content">
+    <img src="./images/banner/training.png" width="100%" height="30%">
+</div>
+   <div  style="padding:5px"></div>
+</head>
+<body>
+
+<h5><strong>Nagpur's Top Training Services</strong></h5>
+<div style="padding:2px"></div>
+ <div style="padding:2px"></div>
+            <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>Rruchita Unique Mindset Coach & NLP Master Practitioner</b></h5>
+                           <p>109, Bhagwaghar Complex, Khare Town, Dharampeth, Nagpur</p>
+                    
+                           <p>Unique Mindset Coaching & Counseling For Students | Career Counseling | Public Speaking Skills | Communication Skills & Inner Personality Development</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>       
+ <div style="padding:2px"></div>
+            <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly7" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly7" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly7" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>PSK Speaking Club</b></h5>
+                           <p>Lower Ground Fortune Mall, behind Maharashtra bank, Sitabuldi, Nagpur</p>
+                    
+                           <p>PUBLIC SPEAKING | PRESENTATION | SPOKEN ENGLISH | GROUP DISCUSSION | INTERVIEW TECHNIQUES | PERSONAL TRAINING</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+ <div style="padding:2px"></div>
+            <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly8" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly8" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly8" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>Sunshine Tutorials - Best Home Tutor Tuition Classes Nagpur</b></h5>
+                           <p>Anant Apartments, near Children Traffic Park, Khare Town, Dharampeth, Nagpur, Maharashtra 440010</p>
+                    
+                           <p>Ist To XIIth | CBSE | ICSE | STATE BOARD</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+ <div style="padding:2px"></div>
+            <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly11" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly11" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly11" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>DAYAWAN'S PUBLIC SPEAKING ACADEMY</b></h5>
+                           <p>Flat no,303 ved residency, near Nilkamal society, near Haldiram, Besa, Nagpur, Maharashtra 400034</p>
+                    
+                           <p>Personality Development | Business Management |Leadership Development | English Speaking | Public Speaking | Professional Selling</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+ <div style="padding:2px"></div>
+            <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly12" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly12" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly12" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>Chanakya Academy</b></h5>
+                           <p>16-24, Vakilpeth, Zade Bhavan Chandan Nagar Zade Bhavan Reshimbagh Road near Navpratibha Night School beside Bagade Dahi Bhandar Siraspeth Nagpur, Maharashtra 440009 India</p>
+                    
+                           <p>MPSC | PSI | STI | ASO</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+ <div style="padding:2px"></div>
+         <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly13" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly13" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly13" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>ICAD GRE Institute Nagpur</b></h5>
+                           <p>Dharampeth Tower, W.H.C. Road , Dharampeth Nagpur-440010 India</p>
+                    
+                           <p>GRE | GMAT | SAT | TOEFL |IELTS</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div style="padding:2px"></div>
+         <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly14" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly14" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly14" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>PSK Technologies Pvt. Ltd.</b></h5>
+                           <p>Lower Ground Fortune Mall, behind Maharashtra bank, Sitabuldi, Nagpur</p>
+                    
+                           <p>Software Languages | Hardware | Networking | Digital Marketing</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+ <div style="padding:2px"></div>
+         <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly14" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly14" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly14" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>NIIT Nagpur Dharampeth Centre</b></h5>
+                           <p>3rd floor, Mangalam Arcade North Bazar Road, Dharampeth Extension, Nagpur</p>
+                    
+                           <p>IT | Data Analytics | Digital Marketing</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div style="padding:2px"></div>
+         <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly18" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly18" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly18" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>Shubhas CBSE Scholars</b></h5>
+                           <p>Plot no. 14, मार्केट रोड, Surya Nagar, Nagpur, Maharashtra 440035</p>
+                    
+                           <p>8th Class CBSE | 9th Class CBSE | 10th Class CBSE | 11th & 12th Class Science CBSE/State</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="padding:2px"></div>
+         <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly21" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly21" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly21" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>Pragati's Makeup Mantra</b></h5>
+                           <p>Fortune Mall, Lower ground Munje Square Sitabuldi Nagpur- 440012</p>
+                    
+                           <p>Full Diploma Course | Fast Track Master Class | Artistic Makeup Course | Workshop Class</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="padding:2px"></div>
+         <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly22" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/master.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/grow your business.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/mens.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly22" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly22" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                       <h5 class="bp mt-1"><b>CBSE Coaching Institute in Nagpur</b></h5>
+                           <p>209, Orange City Towers, Opp Patrakar Bhavan, Dhantoli, Nagpur- 440012 India</p>
+                    
+                           <p>For Class 6th to 10th Special Session on Personality Development by Esha Arora</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star-half-full" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-1">
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b></button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div  style="padding:5px"></div>
+
+<!-- *****************************footer************************************** -->
+    <footer>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p><strong>Our Links:</strong></p>
+                    <p><strong>Home</strong></p>
+                    <p><strong>Advertise</strong></p>
+                    <p><strong>About Us</strong></p>
+                    <p><strong>Free Listing</strong></p>
+                </div>
+                <div class="col-lg-4">
+                    <p><strong>Contact Us:</strong></p>
+                    <p>Phone: +91-123456789</p>
+                    <p>E-mail: example@email.com</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="social-media">
+                        <p><strong>Follow us on:</strong></p>
+                        <a href="#"><i class="fa fa-facebook-square" style="font-size: 30px; color: blue;"></i></a>
+                        <a href="#"><i class="fa fa-instagram" style="font-size: 30px; color: red;"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" style="font-size: 30px; color: blue;"></i></a>
+                        <a href="#"><i class="fa fa-youtube-square" style="font-size: 30px; color: red;"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

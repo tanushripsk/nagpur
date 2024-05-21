@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+            background-color: #E2EEDB;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+/*    menubar    */
+.navbar {
+/*position: fixed; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-height: 40px;
+}
+.login-logout a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*footer*/
+footer {
+            background-color: #CAF4F8;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+        }
+        .social-media a {
+            margin: 0 5px;
+        }
+     a{
+          text-decoration: none;
+        }
+a:hover {
+  opacity: 1;
+  color: red;
+}
+    /* Style for the banner */
+    .banner {
+      background-image: url('./images/banner/hotelbanner.png'); /* Set the image as background */
+      background-size: cover;
+      background-position: center;
+      height: 420px; /* Adjust the height as needed */
+      position: relative;
+    }
+
+    /* Style for the form container */
+  .container1 {
+      max-width: 500px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.8); /* Opacity added */
+      padding: 30px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-label {
+      font-weight: bold;
+    }
+    .form-control {
+      border-radius: 5px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      font-size: 0.9rem;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+    </style>
+    <body>
+        <div class="container">
+<!-- *****************************navbar************************************ -->
+              <nav class="navbar">
+             <div class="logo">
+                <a href="index.html" style="text-decoration: none;"><img src="logo.png" alt="Logo"></a>
+        </div>
+              <div class="login-logout">
+                   <button type="button" class="btn btn-primary">
+                    <a href="#">Login</a> / <a href="#">Sign Up</a>
+                    </button>
+               </div>
+              </nav>
+              <!-- *************second navbar****************************** -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="flight.html"><b>Flight</b></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="hotel.html"><b>Hotel</b><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Bus.html"><b>Bus</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Train.html"><b>Train</b></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Cab.html"><b>Cab</b></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Visa.html"><b>Visa Assistance</b></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Internationalsim.html"><b>International Sim Card</b></a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<!-- **********************************banner******************************************** -->
+      <div class="banner ">
+        <div style="padding:10px"></div>
+     <div class="container1 mt-3">
+    <form class="row" >
+      <div class="mb-3 col-lg-4">
+        <label for="fullName" class="form-label">Full Name:</label>
+        <input type="text" class="form-control" id="fullName" placeholder="your full name">
+      </div>
+      <div class="mb-3 col-lg-4">
+        <label for="email" class="form-label">Email address:</label>
+        <input type="email" class="form-control" id="email" placeholder=" email">
+      </div>
+      <div class="mb-3 col-lg-4">
+        <label for="phone" class="form-label">Mob No:</label>
+        <input type="tel" class="form-control" id="phone" placeholder=" phone number">
+      </div>
+      <div class="mb-3 col-lg-4">
+        <label for="departureDate" class="form-label">Check in Date:</label>
+        <input type="date" class="form-control" id="departureDate">
+      </div>
+      <div class="mb-3 col-lg-4">
+        <label for="departureDate" class="form-label">Check Out Date:</label>
+        <input type="date" class="form-control" id="departureDate">
+      </div>
+      <div class="mb-3 col-lg-4">
+           <label for="passengerCount" class="form-label">No of Days:</label>
+        <input type="number" class="form-control" id="passengerCount" min="1" max="360" value="1">
+      </div>
+      <div class="mb-3 col-lg-4">
+        <label for="passengerCount" class="form-label">No of Rooms:</label>
+        <input type="number" class="form-control" id="passengerCount" min="1" max="10" value="0">
+      </div>
+      <div class="mb-3 col-lg-4">
+          <button type="submit" class="btn btn-primary mt-3">Confirm Booking</button>
+</div>
+        <div class="mb-3 col-lg-4">
+        <button type="submit" class="btn btn-primary mt-3">Cancel - Booking</button>
+      </div>
+    </form>
+  </div>
+  </div>
+
+
+<!-- ******************************************************************************************************** -->
+<div style="padding: 10px;"></div>
+
+<div>
+  <h4><strong>Book Hotel Online with <span style="color:#FF3F07; font-size: 30px;font-family: Arial Black;">Nagpur </span>Dial </strong></h4>
+   <p style="color: grey; font-size: 15px;">Planning a getaway to Nagpur and need a place to stay? Look no further than Nagpur Dial's hassle-free online hotel booking service. Whether you're visiting for business or leisure, we've got you covered with a wide selection of accommodations to suit every preference and budget.</p>
+   <p style="color: grey; font-size: 15px;">At Nagpur Dial, we understand that finding the perfect hotel is essential for a comfortable and memorable stay. That's why our platform offers an extensive range of options, from luxurious resorts to budget-friendly guesthouses, ensuring there's something for everyone. With detailed descriptions, photos, and reviews, you can make an informed decision and find the ideal hotel that meets your needs.</p>
+    <p style="color: grey; font-size: 15px;">Booking your hotel online with Nagpur Dial is easy and convenient. Simply enter your destination, travel dates, and preferences, and browse through our curated list of available accommodations. Filter your search results based on price, amenities, and location to find the perfect match for your trip. Once you've found the ideal hotel, secure your reservation with confidence using our secure payment gateway.</p>
+     <p style="color: grey; font-size: 15px;">Forget the stress of traditional booking methods – with Nagpur Dial, you can plan your entire trip from the comfort of your home or office. Plus, with our flexible booking policies, you can enjoy peace of mind knowing that you have the flexibility to modify or cancel your reservation if your plans change.</p>
+</div>
+
+<!-- *********************************************Popular Hotel********************************************** -->
+<hr>
+<h4><strong>Popular Hotels in <span style="color:#FF3F07">Nagpur</span></strong></h4>
+<p style="color: grey;">Rampriya  Apartment  | Rampriya  | Rampriya  Apartment | Rampriya | Rampriya Service Apartment | Rampriya  | Rampriya  Apartment | Rampriya   |  Rampriya  Apartment | Rampriya  | Rampriya | Rampriya Service Apartment | Rampriya  Apartment  | Rampriya Service Apartment | Rampriya | Rampriya  Apartment | Rampriya Service Apartment | Rampriya Service Apartment| Rampriya  |Rampriya Apartment| Rampriya Service Apartment| </p>
+
+
+<!-- *************************************************footer********************************************** -->
+<hr>
+            <footer>
+              <div class="row">
+                <div class="col-lg-4">
+                  <p className="social">
+                    <strong>Our Links:</strong>
+                  </p>
+                  <p>
+                    <strong>Home</strong>
+                  </p>
+                  <p>
+                    <strong>Advertise</strong>
+                  </p>
+                  <p>
+                    <strong>About Us</strong>
+                  </p>
+                  <p>
+                    <strong>Free Listing</strong>
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <p className="social">
+                    <strong>Contact Us:</strong>
+                  </p>
+                  <p>Phone: +91-123456789</p>
+                  <p>E-mail: example@email.com</p>
+                </div>
+                <div class="col-lg-4">
+                  <div class="social-media">
+                    <p className="social">
+                      <strong>Follow us on:</strong>
+                    </p>
+                    <a href="#">
+                      <i
+                        class="fa fa-facebook-square mx-2" style="font-size: 30px; color: blue;"></i>
+                    </a>
+                    <a href="#">
+                 <i class="fa fa-instagram mx-2" style="font-size: 30px; color: red;"></i>
+
+                    </a>
+                    <a href="#">
+                      <i
+                        class="fa fa-linkedin-square mx-2" style="font-size: 30px; color: blue;"></i>
+                    </a>
+                    <a href="#">
+                      <i
+                        class="fa fa-youtube-square mx-2" style="font-size: 30px; color: red;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </footer>
+        <hr>
+          <div>
+            <p className="copyright">
+              <center>
+                <strong>Copyright © 2024</strong>
+              </center>
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
+    </body>
+</head>
+</html>

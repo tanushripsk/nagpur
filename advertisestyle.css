@@ -1,0 +1,91 @@
+        body{
+            background-color: #E2EEDB;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    text-align: justify;
+        }
+        .container {
+          
+               background-color: #fff;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    box-shadow: 10px;
+    padding: 20px;
+    text-align: justify;
+/*    border: 2px solid green;*/
+        }
+
+       h1, h2, h3, h4, h5, h6, p {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+
+        .header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  margin-left: 30px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #fff;
+  color: white;
+}
+.logo img {
+    max-height: 40px;
+
+}
+
+.content {
+  padding: 8px;
+  margin-left: 0px;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+footer {
+   background-color: #CAF4F8;
+    padding: 20px 0;
+    text-align: center;
+}
+.get
+{
+  width: 95
+  height:auto;
+  border-radius: 15px;
+  border: 2px solid grey;
+}
+ 
+ @media screen and (max-width: 576px) {
+
+  .logo img {
+    max-height: 30px;
+    margin-right: 80px;
+}
+}

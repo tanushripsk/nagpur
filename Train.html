@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- for carousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            background-color: #E2EEDB;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+/*    menubar    */
+.navbar {
+/*position: fixed; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-height: 40px;
+}
+.login-logout a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*footer*/
+footer {
+            background-color: #CAF4F8;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+        }
+        .social-media a {
+            margin: 0 5px;
+        }
+     a{
+          text-decoration: none;
+        }
+a:hover {
+  opacity: 1;
+  color: red;
+}
+    /* Style for the banner */
+    .banner {
+      background-image: url('./images/banner/train.png'); /* Set the image as background */
+      background-size: cover;
+      background-position: center;
+      height: 280px; /* Adjust the height as needed */
+      position: relative;
+    }
+
+
+     .content img {
+            width: 100%;
+            height: auto;
+        }
+        .beauty {
+            width: 95%;
+            border-radius: 15px;
+            border: 2px solid grey;
+            margin: 20px auto;
+        }
+          .carousel {
+            width: 180px;
+            margin: auto;
+        }
+          .bp{
+            color: #5EB52B;
+        }
+    </style>
+    <body>
+        <div class="container">
+<!-- *****************************navbar************************************ -->
+              <nav class="navbar">
+              <div class="logo">
+                <a href="index.html" style="text-decoration: none;"><img src="logo.png" alt="Logo"></a>
+        </div>
+              <div class="login-logout">
+                   <button type="button" class="btn btn-primary">
+                    <a href="#">Login</a> / <a href="#">Sign Up</a>
+                    </button>
+               </div>
+              </nav>
+              <!-- *************second navbar****************************** -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="flight.html"><b>Flight</b></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="hotel.html"><b>Hotel</b></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="Bus.html"><b>Bus</b></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Train.html"><b>Train</b><span class="sr-only">(current)</span></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Cab.html"><b>Cab</b></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Visa.html"><b>Visa Assistance</b></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Internationalsim.html"><b>International Sim Card</b></a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<!-- **********************************banner******************************************** -->
+      <div class="banner ">
+        <div style="padding:10px"></div>
+  </div>
+
+
+<!-- ******************************************************************************************************** -->
+<div style="padding: 10px;"></div>
+
+<div>
+  <h4><strong>Book Train Online with <span style="color:#FF3F07; font-size: 30px;font-family: Arial Black;">Nagpur </span>Dial </strong></h4>
+   <p style="color: grey; font-size: 15px;">Welcome to Nagpur Dial, your one-stop destination for booking train tickets online with convenience and efficiency. Skip the long lines and tedious ticket counters – with Nagpur Dial, you can effortlessly plan your rail journey, select your preferred seats, and secure your tickets from the comfort of your home or on-the-go.</p>
+</div>
+
+
+         <!-- *******************************************client 1************************************* -->
+           <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/ss1.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/ss2.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/ss3.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly1" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly1" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                           <h3 class="bp"><b>T3 Tourism Tours and Travels agency in Nagpur</b></h3>
+                           <h6>Swamy Samarth Commercial Complex, S/409, 4th floor, Dharampeth, Nagpur, Maharashtra 440010.</h6>
+                            <br>
+                           <p>Flight Ticket Corporate Ticket, Luxury Vacation, Honeymoon, Cruises, Visa, Forex, Travel insurance, Chartered plane, Private yacht, Concierge, Group Tours, Jungle tours, Budget tours, Religious tours,</p>
+
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-3">
+   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+                        </div>
+                </div>
+            </div>
+
+                 <!-- *******************************************client 2************************************* -->
+           <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly2" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/ss1.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/ss2.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/ss3.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly2" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly2" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                           <h3 class="bp"><b>GHUMANEWALA TRAVEL SERVICES</b></h3>
+                           <h6>Plot No. 45, Sugandh, opp. Childrens Traffic Park, Dharampeth, Nagpur, Maharashtra 440010</h6>
+                            <br>
+                           <p>Holiday Packages,Luxury Hotels,Tickets,Cruises,Mice Tours,Visa Assistance</p>
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-3">
+   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+                        </div>
+                </div>
+            </div>
+
+ <!-- *******************************************client 1************************************* -->
+           <div class="beauty">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <br>
+                            <div id="carouselExampleSlidesOnly3" class="carousel slide" data-ride="carousel" data-interval="false">
+                                 <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                         <img src="./images/client/ss1.png" class="d-block w-100" alt="Slide 1" >
+                                        </div>
+                                            <div class="carousel-item">
+                                             <img src="./images/client/ss2.png" class="d-block w-100" alt="Slide 2">
+                                            </div>
+                                                <div class="carousel-item">
+                                                <img src="./images/client/ss3.png" class="d-block w-100" alt="Slide 3">
+                                                </div>
+                                            </div>
+                                             <a class="carousel-control-prev" href="#carouselExampleSlidesOnly3" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only text-danger">Previous</span>
+                                                </a>
+                                            <a class="carousel-control-next" href="#carouselExampleSlidesOnly3" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only text-danger">Next</span>
+                                            </a>
+                                            <br>
+                                        </div>
+                                </div>
+                            </div>
+
+                        <div class="col-lg-8">
+                           <h3 class="bp"><b>DHANLAXMI TOURS AND TRAVELS</b></h3>
+                           <h6>Rahul Complex, Wing 1, Block No. 40 Near S.T. Stand, Ganeshpeth , Nagpur</h6>
+                            <br>
+                           <p>Tours & Travels</p>
+
+                           <i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i><i class="fa fa-star" style="font-size:26px;color:#FFC300"></i>
+
+<!-- **************modal******************* -->
+<div class="container mt-3">
+   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-comments" style="font-size:20px;color:red"></i>
+   <b> chat</b>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Nagpurdial</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <h4>Name</h4>
+     <h4>mobile no</h4>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+                        </div>
+                </div>
+            </div>
+
+<!-- *********************************************Popular Hotel********************************************** -->
+<hr>
+<h4><strong>Popular Train Travel Agency  in <span style="color:#FF3F07">Nagpur</span></strong></h4>
+<p style="color: grey;">T3 Tourism Tours and Travels agency in Nagpur  |GHUMANEWALA TRAVEL SERVICES  | 
+DHANLAXMI TOURS AND TRAVELS |T3 Tourism Tours and Travels agency in Nagpur  |GHUMANEWALA TRAVEL SERVICES  | 
+DHANLAXMI TOURS AND TRAVELS |T3 Tourism Tours and Travels agency in Nagpur  |GHUMANEWALA TRAVEL SERVICES  | 
+DHANLAXMI TOURS AND TRAVELS |T3 Tourism Tours and Travels agency in Nagpur  |GHUMANEWALA TRAVEL SERVICES  | 
+DHANLAXMI TOURS AND TRAVELS |T3 Tourism Tours and Travels agency in Nagpur  |GHUMANEWALA TRAVEL SERVICES  | 
+DHANLAXMI TOURS AND TRAVELS |  </p>
+
+
+<!-- *************************************************footer********************************************** -->
+<hr>
+            <footer>
+              <div class="row">
+                <div class="col-lg-4">
+                  <p className="social">
+                    <strong>Our Links:</strong>
+                  </p>
+                  <p>
+                    <strong>Home</strong>
+                  </p>
+                  <p>
+                    <strong>Advertise</strong>
+                  </p>
+                  <p>
+                    <strong>About Us</strong>
+                  </p>
+                  <p>
+                    <strong>Free Listing</strong>
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <p className="social">
+                    <strong>Contact Us:</strong>
+                  </p>
+                  <p>Phone: +91-123456789</p>
+                  <p>E-mail: example@email.com</p>
+                </div>
+                <div class="col-lg-4">
+                  <div class="social-media">
+                    <p className="social">
+                      <strong>Follow us on:</strong>
+                    </p>
+                    <a href="#">
+                      <i
+                        class="fa fa-facebook-square mx-2" style="font-size: 30px; color: blue;"></i>
+                    </a>
+                    <a href="#">
+                 <i class="fa fa-instagram mx-2" style="font-size: 30px; color: red;"></i>
+
+                    </a>
+                    <a href="#">
+                      <i
+                        class="fa fa-linkedin-square mx-2" style="font-size: 30px; color: blue;"></i>
+                    </a>
+                    <a href="#">
+                      <i
+                        class="fa fa-youtube-square mx-2" style="font-size: 30px; color: red;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </footer>
+        <hr>
+          <div>
+            <p className="copyright">
+              <center>
+                <strong>Copyright © 2024</strong>
+              </center>
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
+    </body>
+</head>
+</html>
